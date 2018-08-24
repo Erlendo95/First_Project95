@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "C:/MinGW/bin/g++",
+            "args": [
+                "-g", "andre.cpp", "-o", "shit"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }       
+        }
+    ]
+}
